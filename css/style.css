@@ -7,39 +7,70 @@ body {
 button {
     background: #31b0d5;
 }
-
+.logotxt {
+    color: #00FF2A;
+    padding-top: 5px;
+    margin-bottom: 0;
+    font-family: minecraftia, serif;
+    font-size: 7em;
+}
 button:hover{
     background: #1b6d85;
 }
-.logotxt {
-    color: #00FF2A;
-    margin-bottom:0px;
-    padding-top:5px;
+@media only screen and (max-width: 375px ) {
+    h4 {
+        font-size: 1em;
+    }
 
-    font-family:minecraftia;
-    font-size: 7em;
-}
-#logo {
-   position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    margin: auto;
-    max-width: 50%;
-    max-height:100%;
-    overflow:auto;
+    .logotxt {
+        color: #00FF2A;
+        padding-top: 5px;
+        margin-bottom: 0;
+        font-family: minecraftia, serif;
+        font-size: 5em;
+    }
+
 }
 
-.binary {
-    position: absolute;
-    top: 0;
-    left: 300px;
-    z-index: -1;
-    font-family: 'Source Sans Pro', sans-serif;
-    -webkit-animation-duration: 800ms;
-    writing-mode: vertical-rl;
-    text-orientation: sideways;
-    color: white;
-    text-shadow: 0 0 10px #91EDFF;
+@media only screen and (max-width: 375px ) {
+    h4 {
+        font-size: 1em;
+    }
+
+    .logotxt {
+        color: #00FF2A;
+        padding-top: 5px;
+        margin-bottom: 0;
+        font-family: minecraftia, serif;
+        font-size: 5em;
+    }
+
 }
+@media only screen and (max-width: 766px ) {
+    h4 {
+        font-size: 1em;
+    }
+
+    .logotxt {
+        color: #00FF2A;
+        padding-top: 5px;
+        margin-bottom: 0;
+        font-family: minecraftia, serif;
+        font-size: 5em;
+    }
+
+}
+
+
+    .binary {
+        position: absolute;
+        top: 0;
+        left: 300px;
+        z-index: -1;
+        font-family: 'Source Sans Pro', sans-serif;
+        -webkit-animation-duration: 800ms;
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+        color: white;
+        text-shadow: 0 0 10px #91EDFF;
+    }
