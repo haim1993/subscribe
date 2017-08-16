@@ -11,7 +11,14 @@ button {
 button:hover{
     background: #1b6d85;
 }
+.logotxt {
+    color: #00FF2A;
+    margin-bottom:0px;
+    padding-top:5px;
 
+    font-family:minecraftia;
+    font-size: 7em;
+}
 #logo {
    position: absolute;
     left: 0;
