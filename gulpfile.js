@@ -7,7 +7,7 @@ gulp.task('default', () =>
 		.pipe(babel({
 			presets: ['env']
 		}))
-		.pipe(minify()
-		)
+		.pipe(minify())
 		.pipe(gulp.dest('js'))
 	);
+
