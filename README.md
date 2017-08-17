@@ -1,3 +1,2 @@
-Page subscribe for HackAU 
-
+# Subscribe page - HackAU
 http://hack-au.com/
