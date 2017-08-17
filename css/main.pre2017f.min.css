@@ -7171,6 +7171,11 @@ button.close {
     font-family: minecraftia;
     src: url(../fonts/minecraftia.ttf)
 }
+@font-face {
+    font-family: mr-robot;
+    src: url(../fonts/mr_robot.ttf)
+}
+
 
 canvas {
     background: #232323
@@ -7260,7 +7265,7 @@ body:before {
     margin-bottom: 24px;
     padding-top: 20px;
     line-height: 1.7;
-    color: white;
+    color: #00FF2A;
     font-family: minecraftia
 }
 

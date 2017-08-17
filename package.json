@@ -1,0 +1,26 @@
+{
+  "name": "subscribe",
+  "version": "1.0.0",
+  "description": "Page subscribe for HackAU",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackAU/subscribe.git"
+  },
+  "author": "HackAU Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HackAU/subscribe/issues"
+  },
+  "homepage": "https://github.com/HackAU/subscribe#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-minify": "^1.0.0"
+  }
+}
